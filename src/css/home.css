@@ -1,75 +1,182 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-*{
-    overflow-y:visible;
-    height: fit-content;
+body{
+    height:fit-content;
    
 }
 
-.bgImg{
-    position: absolute;
-    width:50%;
-    height:100%;
-}
-.bgImg img{
-    position: relative;
 
-    width: 100%;
-    height:100%;
-}
-.bgimg{
-    text-align: center;
-    height:100%;
-    background-color: #f2f2f2;
-}
-.bgimg img{
-    width:60%;
-    
-}
+/*Home Two CSS*/
 .containTwo{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left:50px;
+    padding-left:20px;
+    padding-bottom: 50px;
     width:100%;
-    height:100%;
+   min-height: 100%;
+   max-height: fit-content;
     gap:30px;
    
 }
 .rowOne{
-    /*border: solid 1px red;*/
-    width:55%;
-    height:100vh;
+
+    height:fit-content;
     display: flex;
     flex-direction: column;
     justify-content:baseline;
-    gap: 10px;
-    
+   margin-left: auto;
+    margin-right: auto;
+        /*border: solid 1px red;*/
+        width: 55%;
+      
 }
 
-.images{
-    margin-left:auto;
-    margin-right: auto;
-    border:5px solid red;
-    width:200px;
-    height:200px;
+#pOne{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 0px;
 }
 .rowOne p{
     font-size: 18px;
-    
-    padding-top: 10px;
    
-}.rowOne h2{
+}
+.rowOne h2{
     text-align: center;
     
 }
+
 .rowTwo{
     border: solid 5px white;
     width:35%;
+    max-width:500px;
+    min-width:300px;
     height:100vh;
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
     border-image: linear-gradient(45deg, #439CFB, #15223C) 1;
     /*animation: loading 1.3s linear infinite;*/
 }
+.containerThree {
+
+    width: 100%;
+    height:100%;
+    position: relative;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  #contact {
+    background: #F9F9F9;
+    height: 100%;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
 /*
 @keyframes loading {
     0% {
@@ -103,4 +210,27 @@
     background-color: white !important;
    border: 5px solid #15223C !important;
    color: #15223C !important;
+}
+
+
+
+/*Home Three CSS*/
+.containThree{
+   
+    width:100%;
+    height:70vh;
+    background-color: #15223C;
+}
+#textThree{
+    position: relative;
+    margin-top:2%;
+    color:white;
+}
+.reviewBox{
+    width: 40%;
+    height:70%;
+    background-color: #aaa;
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
