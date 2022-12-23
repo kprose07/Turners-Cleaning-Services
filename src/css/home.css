@@ -246,10 +246,11 @@ body{
     color:#15223C;
 }
 .rBox{
+  display: flex;
   flex-direction: row;
 }
 .reviewBox{
-    max-width: 600px;
+    width: 600px;
     min-height:500px;
     margin-left: 10%;
     margin-right: 10%;
@@ -271,10 +272,9 @@ body{
   width:35px;
   float: right;
 }
-.info{
-  width: 20%;
+.rinfo{
+    max-width: 600px;
     height:400px;
-    margin-left: 10%;
     background-color: white;
     
 }
