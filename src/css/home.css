@@ -250,7 +250,7 @@ body{
   flex-direction: row;
 }
 .reviewBox{
-    width: 600px;
+    max-width: 600px;
     min-height:500px;
     margin-left: 10%;
     margin-right: 10%;
