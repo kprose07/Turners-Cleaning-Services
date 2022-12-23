@@ -12,7 +12,7 @@ function App() {
   <Navbar />
   <div className="space"></div>
   
-<Foot/>
+
  </>
   );
 }

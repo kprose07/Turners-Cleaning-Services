@@ -1,11 +1,13 @@
 import React from 'react'
 import headshot from '../img/test.png'
 import bg from '../img/cleanone.png'
+import { Link } from 'react-router-dom';
 
 
 function homePartTwo() {
   return (
     <>
+    
   <div className='space'></div>
     <div className='containTwo'>
       <div className='bgImg'></div>
@@ -22,7 +24,7 @@ function homePartTwo() {
              owner and manager, he is spearheading the company with a strong foundation of respect, consistency, and
              professionalism. We sincerely thank you for considering Turner's Cleaning Service, LLC and hope that we may provide 
              the highest level of janitorial services to your business.</p>
-            <h2>We are confident that we can accommodate your needs. 
+            <h2 id='typed'>We are confident that we can accommodate your needs. 
             We own and have access to the right equipment, supplies, and staff that can handle small 
             to large scale jobs.
             </h2>
@@ -51,7 +53,7 @@ function homePartTwo() {
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
-    <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+    <p class="copyright">© Turner's Cleaning LLC <Link to="/About" target="_blank" title="Contact">Contacts</Link></p>
   </form>
 </div>
         </div>

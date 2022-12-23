@@ -13,9 +13,11 @@
 }
 .navbar{
     background-color: #15223C !important;
+    margin-top: 0;
     height:70px;
     font-size: 17px;
-    
+        border-bottom: 5px solid #15223C;
+        box-shadow:0px 10px 10px rgb(0 0 0 / 60%);
 }
 .nav-link{
     color:aliceblue !important;
