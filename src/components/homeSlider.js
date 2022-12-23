@@ -11,24 +11,24 @@ import SlideThree from '../img/csthree.png';
 
 export default function Slide() {
   return (
-    <MDBCarousel>
+    <MDBCarousel showControls>
       <MDBCarouselItem
         className='w-100 d-block'
-        style={{ minHeight: '260px',maxHeight:'500px'}}
+        style={{ minHeight: '260px',maxHeight:'600px'}}
         itemId={1}
         src={SlideOne}
         alt='...'
       />
       <MDBCarouselItem
         className='w-100 d-block'
-        style={{ minHeight: '260px',maxHeight:'500px'}}
+        style={{ minHeight: '260px',maxHeight:'600px'}}
         itemId={2}
         src={SlideTwo}
         alt='...'
       />
       <MDBCarouselItem
         className='w-100 d-block'
-        style={{ minHeight: '260px',maxHeight:'500px'}}
+        style={{ minHeight: '260px',maxHeight:'600px'}}
         itemId={3}
         src={SlideThree}
         alt='...'
