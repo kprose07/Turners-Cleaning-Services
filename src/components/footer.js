@@ -35,17 +35,15 @@ export default function App() {
     <section className=''>
       <MDBContainer className='text-center text-md-start mt-5'>
         <MDBRow className='mt-3'>
-          <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-            <h6 className='text-uppercase fw-bold mb-4'>
-              <MDBIcon icon="gem" className="me-3" />
-              Turner's Cleaning Service
-            </h6>
+          <MDBCol md="3" lg="4" xl="3" id='colOne' className='mx-auto mb-4'>
+          <img src={logo}></img>
+       
             <p>
             MILITARY STANDARD PROFESSIONAL CLEANING SERVICES
             </p>
           </MDBCol>
 
-          <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+          <MDBCol id='foota' md="2" lg="2" xl="2" className='mx-auto mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
             <p>
               <a href='#!' className='text-reset'>
@@ -62,33 +60,29 @@ export default function App() {
                 Location
               </a>
             </p>
-            <p>
-              <a href='#!' className='text-reset'>
-                Laravel
-              </a>
-            </p>
+          
           </MDBCol>
 
-          <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+          <MDBCol id='foota' md="3" lg="2" xl="2" className='mx-auto mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
             <p>
               <a href='#!' className='text-reset'>
-                Pricing
+                About
               </a>
             </p>
             <p>
               <a href='#!' className='text-reset'>
-                Settings
+                Gallery
               </a>
             </p>
             <p>
               <a href='#!' className='text-reset'>
-                Orders
+                Contact
               </a>
             </p>
             <p>
               <a href='#!' className='text-reset'>
-                Help
+                Quotes
               </a>
             </p>
           </MDBCol>
@@ -97,7 +91,7 @@ export default function App() {
             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
             <p>
               <MDBIcon icon="home" className="me-2" />
-              New York, NY 10012, US
+              Jackson, MS 39217, US
             </p>
             <p>
               <MDBIcon icon="envelope" className="me-3" />

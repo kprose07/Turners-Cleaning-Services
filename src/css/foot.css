@@ -10,3 +10,29 @@
     border-right:5px solid #15223C;
    background-color: #f2f2f2 !important;
 }
+#colOne{
+    background-color: white;
+    color: #15223C;
+    border: 5px solid #15223C;
+}
+#colOne img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:15px;
+    max-width:100%;
+
+}
+#colOne p{
+    font-family: 'Oswald';
+    font-size: 15px;
+    font-weight: 600px;
+    margin-top:15px;
+    text-align: center;
+}
+#foota a:hover{
+    border-bottom: 4px solid white;
+}
+#foota a::selection{
+    border-bottom: 4px solid #f2f2f2;
+}
