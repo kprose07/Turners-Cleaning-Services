@@ -28,7 +28,7 @@ function homePartTwo() {
             We own and have access to the right equipment, supplies, and staff that can handle small 
             to large scale jobs.
             </h2>
-            <button type="button" className="btn btnh">GET A FREE QUOTE TODAY</button>
+            <button type="button" className="btn btnh">View Services</button>
         </div>
         <div className='rowTwo'>
         <div className="containerThree">  

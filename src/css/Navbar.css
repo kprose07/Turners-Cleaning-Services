@@ -7,10 +7,12 @@
    font-family:  'Oswald', sans-serif;
 }
 .navbar-toggler{
-    justify-content: end !important;
+    margin-right:auto;
     background-color: #15223C !important;
-
+    margin-right: auto !important;
+    background-image: url("../img/navd.png");
 }
+
 .navbar{
     background-color: #15223C !important;
     margin-top: 0;

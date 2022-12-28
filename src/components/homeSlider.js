@@ -4,10 +4,9 @@ import {
   MDBCarouselItem,
 } from 'mdb-react-ui-kit';
 
-import SlideOne from '../img/csone.png';
-import SlideTwo from '../img/cstwo.png';
+import SlideOne from '../img/so.png';
+import SlideTwo from '../img/slide.gif';
 import SlideThree from '../img/csthree.png';
-
 
 export default function Slide() {
   return (

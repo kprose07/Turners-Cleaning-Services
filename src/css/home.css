@@ -31,8 +31,11 @@ body{
    margin-left: auto;
     margin-right: auto;
         /*border: solid 1px red;*/
-        width: 55%;
+        max-width: 55%;
       
+}
+#typed{
+  color: #15223C;
 }
 
 #pOne{
@@ -234,6 +237,7 @@ body{
     background-color: #f2f2f2;
     gap: 15px;
     overflow-x: hidden;
+    
 
 }
 .head{
@@ -250,6 +254,7 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 20px;
+  
 }
 .reviewBox{
     width:100%;
@@ -260,6 +265,7 @@ body{
     padding: 40px;
     background-color: white;
     box-shadow:0px 20px 40px rgb(0 0 0 / 60%);
+    margin-bottom: 40px;
 }
 #review{
   font-family: 'Ovo';
@@ -285,6 +291,7 @@ body{
    font-family: 'Ovo';
    font-size: 15px;
    padding:40px;
+   padding-top: 0px;
 }
 .subtitle{
   line-height: 2px;
@@ -298,7 +305,18 @@ body{
 #smallt{
   font-size: 15px;
 }
+.imageHolder{
+  width: fit-content;
 
+}
+.imgHolder img{
+  margin-bottom: 30px;
+  border-radius:100% ;
+  width:200px;
+}
 .spaceTwo{
   height: 200px;
+}
+.slide{
+  background-color:#F2F2F2;
 }
