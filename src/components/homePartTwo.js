@@ -36,7 +36,7 @@ function homePartTwo() {
     <h3>Contact Us Today!</h3>
     <h4>Contact us for custom quote/questions</h4>
     <fieldset>
-      <input placeholder="Your name" type="text" tabIndex="1" required autoFocus/>
+      <input placeholder="Your name" type="text" tabIndex="1" required/>
     </fieldset>
     <fieldset>
       <input placeholder="Your Email Address" type="email" tabIndex="2" required/>

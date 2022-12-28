@@ -2,7 +2,7 @@
 import './App.css';
 import TopNavbar from './components/topNavbar';
 import Navbar from './components/Navbar';
-import Foot from './components/footer';
+
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   <Navbar />
   <div className="space"></div>
   
-
+    
  </>
   );
 }
