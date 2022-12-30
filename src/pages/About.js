@@ -24,7 +24,11 @@ janitorial experience. The company prides itself on providing superior services.
 It has inventory of commercial equipment in addition to established relationships
  with janitorial supply companies to meet the demands of the clients.
 </p>
-<img src={tTwo} alt="Mr.Turner"/>
+<div className='ri'>
+
+<img id='itwo'src={tTwo} alt="Mr.Turner"/>
+
+</div>
            </div>
     </div>
    

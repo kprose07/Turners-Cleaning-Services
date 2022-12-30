@@ -26,6 +26,15 @@
     padding: 5px;
 
 }
+.ri{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  
+}
+#itwo{
+  max-width:35%;
+}
 #subtitle{
      font-family: 'Oswald';
     font-size: 30px;
@@ -140,6 +149,11 @@
   .card:hover p{
     display: block;
   }
+  .card::selection p{
+    display: block;
+
+  }
+  
   .card__content{
     left: 0;
     padding: var(--spacing-l);

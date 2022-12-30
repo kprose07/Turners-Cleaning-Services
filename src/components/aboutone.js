@@ -4,6 +4,7 @@ import '../css/about.css'
 import $ from 'jquery'
 //import '../components/robo.js'
 import tu from '../img/turner.jpg'
+import tut from '../img/turnerthree.jpg'
 
 function AboutOne() {
   return (
@@ -11,7 +12,7 @@ function AboutOne() {
 
 <section className="hero-section">
   <div className="card-grid">
-    <a className="card" href="#">
+    <div className="card">
       <div className="card__background" style={{
            backgroundImage: `url(${tu})`}}>
       </div>
@@ -20,10 +21,10 @@ function AboutOne() {
         <p className="card__category">Mr. Poncie Turner is the sole owner of Turner's Cleaning Service.</p>
        
       </div>
-    </a>
-    <a className="card" href="#">
+    </div>
+    <div className="card">
       <div className="card__background" 
-      style={{backgroundImage: "url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"}}></div>
+      style={{backgroundImage: `url(${tut})`}}></div>
       <div className="card__content">
         <h3 className="card__heading">Management</h3>
         <p className="card__category">Turner's Cleaning Service is currently managed by the owner, 
@@ -33,8 +34,8 @@ As contracts increase the company will hire an experienced assistant manager who
  oversee cleaning,managing employees, and completing quality control checks routinely at each job site.
 </p>
       </div>
-    </a>
-    <a className="card" href="#">
+    </div>
+    <div className="card">
       <div className="card__background" style={{backgroundImage: "url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"}}></div>
       <div className="card__content">
       <h3 className="card__heading">Personnel</h3>
@@ -51,8 +52,8 @@ data is properly handled and filed.
 </p>
         
       </div>
-      </a>
-    <a className="card" href="#">
+      </div>
+    <div className="card">
       <div className="card__background" style={{backgroundImage: "url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"}}></div>
       <div className="card__content">
         <h3 className="card__heading">Financial Management</h3>
@@ -62,7 +63,7 @@ Smart Solution Consulting ensures that TCS is has up-to-date and accurate books 
 invoices and payroll.</p>
 
       </div>
-    </a>
+    </div>
     </div>
 </section>
     </div>
