@@ -95,7 +95,7 @@ export default function App() {
             </p>
             <p>
               <MDBIcon icon="envelope" className="me-3" />
-              info@example.com
+              tponcie@gmail.com
             </p>
             <p>
               <MDBIcon icon="phone" className="me-3" />601-540-5659
