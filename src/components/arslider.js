@@ -3,7 +3,7 @@ import '../css/arslider.css'
 import '../components/asliderscript.js'
 //slider images
 import card from '../img/turnertwo.jpg';
-import cardtwo from '../img/ctwot.png';
+import cardtwo from '../img/ctwo.png';
 import cardthree from '../img/cthree.png';
 import cardfour from '../img/cfour.png';
 import cardfive from '../img/cfive.png';

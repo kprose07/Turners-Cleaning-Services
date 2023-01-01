@@ -51,6 +51,17 @@ function aboutthree() {
                         <li>Bathroom & kitchen area cleaning</li>
                         <li>Pressure Washing</li>
                     </ul>
+
+                    <p id='heading'>
+                    ADMINISTRATIVE/CLERICAL
+                    </p>
+                    <p id='content'>
+                    THE COMPANY CURRENTLY CONTRACTS ADMINISTRATIVE AND CLERICAL
+                     RESPONSIBILITIES TO SMART SOLUTION CONSULTING, LLC. THE OWNER IN
+                      CONJUNCTION WITH THIS ORGANIZATION ENSURES THAT ALL PAPERWORK,
+                       DOCUMENTS, AND OTHER SENSITIVE DATA IS PROPERLY HANDLED AND FILED.
+
+                    </p>
             </div>
            
        

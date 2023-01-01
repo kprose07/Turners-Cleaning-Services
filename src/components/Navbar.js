@@ -21,6 +21,7 @@ function NavBar() {
           <LinkContainer to="/Home">
                 <Nav.Link>Home</Nav.Link>
             </LinkContainer>
+
             <LinkContainer to="/About">
                 <Nav.Link>About</Nav.Link>
             </LinkContainer>
@@ -29,10 +30,16 @@ function NavBar() {
             <LinkContainer to="/Services">
               <NavDropdown.Item>Services</NavDropdown.Item>
               </LinkContainer>
-              <NavDropdown.Item href="#action/3.2">
+
+              <LinkContainer to="/Equipment">
+              <NavDropdown.Item>
                 Equipment
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Locations</NavDropdown.Item>
+              </LinkContainer>
+
+              <LinkContainer to="/Location">
+              <NavDropdown.Item>Location</NavDropdown.Item>
+              </LinkContainer>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link

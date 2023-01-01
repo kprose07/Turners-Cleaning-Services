@@ -42,16 +42,12 @@ As contracts increase the company will hire an experienced assistant manager who
       <div className="card__content">
       <h3 className="card__heading">Personnel</h3>
         <p className="card__category">
-        Custodians/Maintenance Workers</p>
+        Custodians/Maintenance Workers:</p>
         <p className="card__category">Turner's Cleaning Service currently has experienced, on-call staff of 7-10 workers who are contracted at the
 time work is available. As the company grows and business increases, TCS plans to hire these individuals fulltime 
 and/or hire the number of individuals needed at the time contract is awarded. Additionally, TCS may seek
 the services of an employment agency to ensure all staffing requirements are adequately accommodated.</p>
-<p className="card__category">Administrative/Clerical</p>
-<p className="card__category">The company currently contracts administrative and clerical responsibilities to Smart Solution Consulting, LLC.
-The owner in conjunction with this organization ensures that all paperwork, documents, and other sensitive
-data is properly handled and filed.
-</p>
+
         
       </div>
       </div>

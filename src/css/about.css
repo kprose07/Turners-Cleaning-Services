@@ -151,7 +151,7 @@
 
   .card p{
     display: none;
-    font-size: 12px;
+    font-size: 14.5px;
     color:white;
   }
   .card:hover p{
@@ -227,16 +227,18 @@
 }
 /*Codes*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200&family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200&family=Ovo&display=swap'); 
+
 
 #heading{
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ovo', serif;
   font-weight: 700;
   color: #15223C;
 }
 #content{
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ovo', serif;
 }
 
 .Codes{
