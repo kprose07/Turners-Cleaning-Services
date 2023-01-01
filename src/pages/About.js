@@ -3,6 +3,8 @@ import bgimga from '../img/bg.png'
 import '../css/about.css'
 import AboutOne from '../components/aboutone'
 import tTwo from '../img/turnertwo.jpg'
+import Arslider from '../components/arslider'
+import AboutThree from '../components/aboutthree'
 
 function About() {
   return (
@@ -25,13 +27,12 @@ It has inventory of commercial equipment in addition to established relationship
  with janitorial supply companies to meet the demands of the clients.
 </p>
 <div className='ri'>
-
-<img id='itwo'src={tTwo} alt="Mr.Turner"/>
+<Arslider />
 
 </div>
            </div>
     </div>
-   
+    <AboutThree />
     <AboutOne />
 </>
   )

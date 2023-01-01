@@ -1,3 +1,4 @@
+/*Top/*/
 .partOne{
     display:flex;
     flex-direction: row;
@@ -20,21 +21,26 @@
 .rowtwo{
     padding:20px;
     max-width: 50%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top:1.5%;
-    padding: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 }
 .ri{
   display: flex;
   justify-content: center;
   max-width: 100%;
-  
+  height:100%;
+  overflow: hidden;
+  padding: 50px;
 }
+/*
 #itwo{
   max-width:35%;
-}
+}*/
 #subtitle{
      font-family: 'Oswald';
     font-size: 30px;
@@ -51,6 +57,7 @@
     padding: 10px;
 }
 
+/*Hover Cards*/
 :root{
     --background-dark: #2d3548;
     --text-light: rgba(255,255,255,0.6);
@@ -74,7 +81,7 @@
   
   .hero-section{
     align-items: flex-start;
-    background-color: white;
+    background-color: #15223C;
     display: flex;
 
     min-height: 100%;
@@ -106,6 +113,7 @@
   .card{
     list-style: none;
     position: relative;
+    background-color: #15223C;
   }
   
   .card:before{
@@ -199,6 +207,7 @@
         max-width: 40%;
     }
 }
+
 @media screen and (max-width:939px) {
     .rowtwo{
         max-width: 90%;
@@ -215,4 +224,92 @@
     #pone{
         font-size: 13px;
     }
+}
+/*Codes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200&family=Ovo&display=swap');
+
+#heading{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #15223C;
+}
+#content{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Codes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+ 
+}
+
+.col{
+ 
+  max-width: 670px;
+  min-height: 100%;
+}
+.col img{
+  width:100%;
+  height:100%;
+  
+}
+.colOnea{
+  flex-direction: column;
+  padding:30px;
+  flex-wrap: wrap;
+  max-width: 735px;
+  min-height: 100%;
+
+}
+
+.colTwoa{
+  flex-wrap: wrap;
+  max-width: 420px;
+  flex-direction: column;
+  padding:30px;
+  min-height: 100%;
+
+}
+
+#codeOne{
+    background-color: #2d3548;
+    color:white;
+    border: 2px solid black;
+    width:fit-content;
+    padding:20px;
+    text-align: center;
+    
+}
+
+#codeTwo{
+  background-color: #2d3548;
+  color:white;
+  border: 2px solid black;
+  width:fit-content;
+  padding:20px;
+  text-align: center;
+}
+
+@media screen and (max-width:1110px) {
+.Codes{
+  display: flex;
+  justify-content: center;
+}
+  .col{
+   min-width:100%;
+   display: flex;
+  justify-content: center;
+   
+  }
+  .col img{
+    width:400px;
+    height:300px;
+  }
+  .colOnea{
+    padding-bottom: 0px;
+  }
 }

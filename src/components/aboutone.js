@@ -5,6 +5,8 @@ import $ from 'jquery'
 //import '../components/robo.js'
 import tu from '../img/turner.jpg'
 import tut from '../img/turnerthree.jpg'
+import pers from '../img/pers.gif'
+import f from '../img/f.jpg'
 
 function AboutOne() {
   return (
@@ -36,7 +38,7 @@ As contracts increase the company will hire an experienced assistant manager who
       </div>
     </div>
     <div className="card">
-      <div className="card__background" style={{backgroundImage: "url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"}}></div>
+      <div className="card__background" style={{backgroundImage: `url(${pers})`}}></div>
       <div className="card__content">
       <h3 className="card__heading">Personnel</h3>
         <p className="card__category">
@@ -54,7 +56,7 @@ data is properly handled and filed.
       </div>
       </div>
     <div className="card">
-      <div className="card__background" style={{backgroundImage: "url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"}}></div>
+      <div className="card__background" style={{backgroundImage: `url(${f})`}}></div>
       <div className="card__content">
         <h3 className="card__heading">Financial Management</h3>
         <p className="card__category ">Turner's Cleaning Service currently contracts bookkeeping and payroll services through Smart Solution
