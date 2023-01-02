@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200&family=Ovo&display=swap');
+
+.eqcont{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.eqcont ul{
+    list-style: none;
+
+}
+.ro{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap:20px;
+    padding:40px;
+    background-color:white;
+    max-width:80%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    
+}
+.equipcontain{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+}
+
+.equipcontain ul{
+    list-style:none;
+    margin: auto;
+}
+.equipcontain p{
+    max-width:600px;
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    font-family: 'Ovo', serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+#eq{
+    margin:auto;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ovo', serif;
+  
+    font-style:normal ;
+}
+.two ul{
+    list-style: none;
+
+}
+
+  p{
+       
+        font-size: 18px;
+        margin-bottom: 0px !important;
+
+    }
+#eqq{
+    max-width: 100%;
+}
+
+.creds{
+    display: flex;   
+flex-wrap: wrap;
+flex-direction: column;
+  justify-content: center;
+  max-width:100%;
+    font-family: 'Ovo', serif;
+    padding:40px;
+   background-image: url('../img/eq.png');
+   background-size: cover;
+   overflow-x: hidden;
+
+}
+.creds ul{
+    list-style: none;
+}
+.creds img{
+    max-width: 100%;
+    margin-bottom: 25px;
+
+}
+.crbox{
+    display: flex;   
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    max-width:900px;
+    padding:40px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    
+}
+.crbox p{
+    font-size: 18px;
+}
+#subte{
+    font-size: 23px;
+}
+@media screen and (max-width:548px) {
+    .ro{
+        padding:20px;
+        box-shadow: none;
+   
+    }
+    .crbox img{
+        width: 100%;
+    }
+    .crbox{
+        width: 100%;
+        box-shadow: none;
+        padding:20px;
+        background-color: white;
+    }
+}

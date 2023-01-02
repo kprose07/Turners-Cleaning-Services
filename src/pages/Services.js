@@ -11,13 +11,14 @@ function Services() {
     <img id='header' src={header} alt='header'/>
     <div className='one'>
       <div className='sboxOne'>
-        <p id='stit'>Services Turner's Cleaning Provides</p>
+        <p id='stit'>Scope of Proffesional Services</p>
         <p>Turner's Cleaning Service can provide the following commercial janitorial service listed in thorough detail.</p>
       </div>
       <div> <img id='bg'src={bgs} alt='photoref' /></div>
 
       </div>
     <div className='servlist'>
+    <div>
         <p id='subtit'>
         Trash Removal
         </p>
@@ -139,7 +140,8 @@ theft and vandalism will be immediately reported.</p>
 dampened in mild detergent solution. In restrooms and lockers use a germicidal detergent
 solution. After washing, the counter and sinks will have a uniform appearance, free from streaks,
 spots, smudges, or lint, with complete removal of soil from the surface.</p>
-
+</div>
+<div>
 <p id='subtit'>Spot Clean Internal Building Surfaces/Internal Glass</p>
 <p id='conttext'>Remove smudges, fingerprints, marks, streaks, and soil from washable surfaces including stainless
 steel, around light switches, doors, door handles and casings, telephone stations, interior glass,
@@ -288,6 +290,7 @@ bottles, and papers.</p>
 where needed, damp mop all floor areas once a week or when needed. Walls, door, light switches, heaters,
 ledges - damp mop daily, removing all soil, fingerprints and dirt. Waste Containers - empty daily, line with
 plastic liner.</p>
+</div>
     </div>
     </div>
   )

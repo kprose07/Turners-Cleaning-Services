@@ -26,25 +26,21 @@ function NavBar() {
                 <Nav.Link>About</Nav.Link>
             </LinkContainer>
           
-            <NavDropdown title="Services" id="basic-nav-dropdown">
             <LinkContainer to="/Services">
-              <NavDropdown.Item>Services</NavDropdown.Item>
+              <Nav.Link>Services</Nav.Link>
               </LinkContainer>
 
               <LinkContainer to="/Equipment">
-              <NavDropdown.Item>
-                Equipment
-              </NavDropdown.Item>
+              <Nav.Link>
+                Equipment/Credentials
+              </Nav.Link>
               </LinkContainer>
 
               <LinkContainer to="/Location">
-              <NavDropdown.Item>Location</NavDropdown.Item>
+              <Nav.Link>Location</Nav.Link>
               </LinkContainer>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+             
             <LinkContainer to="/Gallery">
                 <Nav.Link>Gallery</Nav.Link>
             </LinkContainer>

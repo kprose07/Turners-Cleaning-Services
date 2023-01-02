@@ -19,15 +19,16 @@
     margin-bottom: 40px;
     max-width: 100%;
     overflow-x: hidden;
+    gap: 20px;
 }
 #bg{
-max-width:540px;
+max-width:100%;
 object-fit: cover;
+float: right;
     
 }
 .sboxOne{
     max-width: 540px;
-    background-color: white;
     font-family: 'Ovo', serif;
     padding: 40px;
     margin-bottom: auto;
@@ -43,10 +44,11 @@ object-fit: cover;
 .servlist{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     font-family: 'Ovo', serif;
-    padding: 0px 70px;
-
+    padding: 20px 70px;
+    gap:23px;
+    background-color: #f2f2f2;
 
 }
 #subtit{
@@ -57,4 +59,12 @@ object-fit: cover;
 }
 #conttext{
     font-size: 17px;
+}
+@media screen and (max-width:854px) {
+    .servlist{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
 }
