@@ -1,0 +1,126 @@
+/*
+//css
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200&family=Ovo&display=swap'); 
+
+.galcontain {
+    
+    font-family: 'Ovo', serif;
+  margin: 0;
+  width:100%;
+  height:100%;
+  overflow-x: hidden;
+
+}
+
+
+.gallery{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.img-container:hover{
+  transition: all 0.1s ease-in-out;
+  opacity: 0.7;
+}
+
+.img-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.modal{
+  background-color:rgba(53,194,18,0.384);
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.full-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 85%;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.full-img.open{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal.open{
+  opacity: 1;
+  pointer-events: all;
+}
+
+//JS Reace
+import React from 'react'
+import $ from "jquery";
+import { useEffect } from "react";
+import '../css/gallery.css'
+//import '../components/g.js'
+
+//Gallery Images
+import imgOne from '../img/tur.png'
+
+
+function Gallery() {
+  useEffect(() => {
+    const fullImg = document.querySelector('.full-img')
+const smallImg = document.querySelectorAll('.gallery img');
+
+const modal = document.querySelector('.modal');
+
+smallImg.forEach(function(img) {
+  img.addEventListener('click', function(){
+    modal.classList.add('open');
+    fullImg.classList.add('open');
+    
+    //changin' the images dynamically
+    const originalQuality = img.getAttribute('src')
+    fullImg.src = originalQuality;
+  });
+  
+  modal.addEventListener('click', function(e){
+  if(e.target.classList.contains('modal')){
+    modal.classList.remove('open');
+    fullImg.classList.remove('open');
+  }
+});
+});
+
+  })
+  
+
+
+  return (
+   <div className='galcontains'>
+   <section className="gallery">
+    <div className="img-container"><img src="https://images.pexels.com/photos/4588065/pexels-photo-4588065.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="1"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/146083/pexels-photo-146083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="2"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/41315/africa-african-animal-cat-41315.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="3"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/3690511/pexels-photo-3690511.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="4"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/689784/pexels-photo-689784.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="5"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/3614358/pexels-photo-3614358.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="6"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/65289/polar-bear-bear-teddy-sleep-65289.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="7"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/4666751/pexels-photo-4666751.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="8"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/3608263/pexels-photo-3608263.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="9"/></div>
+    <div className="img-container"><img src="https://images.pexels.com/photos/568022/pexels-photo-568022.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="10"/></div>
+  </section>
+  <div className="modal">
+    <img src="https://images.pexels.com/photos/4588065/pexels-photo-4588065.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" className="full-img"/>
+   </div>
+   </div>
+  )
+}
+
+export default Gallery
+*/
