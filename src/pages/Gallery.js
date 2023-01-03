@@ -1,8 +1,14 @@
 import React from 'react'
+import $ from "jquery";
+import '../css/gallery.css'
+import '../components/galleryt.js'
+
 
 function Gallery() {
   return (
-    <div>Gallery</div>
+    <div>
+      <section className="react-gallery"></section>
+    </div>
   )
 }
 
