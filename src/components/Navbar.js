@@ -19,30 +19,31 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto">
           <LinkContainer to="/Home">
-                <Nav.Link>Home</Nav.Link>
+                <Nav.Link id='hline'>Home</Nav.Link>
             </LinkContainer>
+
             <LinkContainer to="/About">
-                <Nav.Link>About</Nav.Link>
+                <Nav.Link id='hline'>About</Nav.Link>
             </LinkContainer>
           
-            <NavDropdown title="Services" id="basic-nav-dropdown">
             <LinkContainer to="/Services">
-              <NavDropdown.Item>Services</NavDropdown.Item>
+              <Nav.Link id='hline'>Services</Nav.Link>
               </LinkContainer>
-              <NavDropdown.Item href="#action/3.2">
-                Equipment
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Locations</NavDropdown.Item>
+
+              <LinkContainer to="/Equipment">
+              <Nav.Link id='hline'>
+                Equipment/Credentials
+              </Nav.Link>
+              </LinkContainer>
+
+           
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+             
             <LinkContainer to="/Gallery">
-                <Nav.Link>Gallery</Nav.Link>
+                <Nav.Link id='hline'>Gallery</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/Contact">
-                <Nav.Link>Contact</Nav.Link>
+                <Nav.Link id='hline'>Contact</Nav.Link>
             </LinkContainer>
 
           </Nav>
