@@ -1,93 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200&family=Ovo&display=swap'); 
 
-html,
-body {
-  min-height: 100%;
-  height: 100%;
+.galcontain {
+    
+    font-family: 'Ovo', serif;
+  margin: 0;
+  width:100%;
+  height:100%;
+  overflow-x: hidden;
+
 }
 
-html {
-  font-size: 16px;
-}
-
-body {
-  position: relative;
-  font-size: 100%;
-}
-
-.gallery-container {
-  padding-top: .9375rem;
-}
-
-.gallery-card {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 1.875rem;
-}
-
-.gallery-thumbnail {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
-
-.card-icon-open {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
-  color: #fff;
+button {
   cursor: pointer;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: all .25s ease-in-out;
-}
-.card-icon-open:focus,
-  :hover {
-    color: #111;
-  }
-
-
-.gallery-thumbnail:focus ~ .card-icon-open,
-.gallery-thumbnail:hover ~ .card-icon-open,
-.gallery-thumbnail ~ .card-icon-open:focus,
-.gallery-thumbnail ~ .card-icon-open:hover {
-  opacity: 1;
 }
 
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
+#portfolio {
+
+  background: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+  width:100%;
+    height: 100%;
+
+}
+
+.project {
+  position: relative;
+  background: #f2f2f2;
+  overflow: hidden;
+  width:500px;
+  height: 400px;
+}
+.project img {
+  position: absolute;
+  opacity: 0.9;
+  margin:auto;
   width: 100%;
   height: 100%;
-  background: rgba(21,21,21,.75);
+}
+.project p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  padding: 1em 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 3;
+}
+.project .grid__title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  bottom: 0;
+  font-weight: 100;
+  font-size: 0.8em;
+  z-index: 3;
+  text-transform: uppercase;
+  color: #474545;
+  letter-spacing: 2px;
 }
 
-.modal-body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 11;
-  padding: 0;
-  overflow: auto;
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 4px;
-  transform: translate(-50%, -50%);
+.project:hover .grid__overlay {
+  transform: translateY(0%);
 }
 
-.modal-close {
+.grid__overlay {
+  background: #15223C;
+  color: white;
+  opacity: .7;
+  height: 100%;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  transform: translateY(101%);
+  transition: all 0.3s ease-in-out;
+}
+.grid__overlay button {
+  background: none;
+  outline: none;
+  font-weight: 100;
+  letter-spacing: 2px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+
+}
+.grid__overlay button:hover {
+  transition: all 0.3s ease-in-out;
+  background: #f2f2f2;
+  color: #15223C;
+  transform: scale(1.05);
+ 
+}
+
+.overlay {
   position: absolute;
+  background: rgba(71, 69, 69, 0.7);
   top: 0;
-  right: 8px;
-  font-size: 1.5rem;
-  color: #111;
-  transition: all .25s ease-in-out;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  z-index: 3;
 }
-.modal-close :focus,
-.modal-close :hover {
-    color: #fff;
-  }
 
+.overlay.open {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.overlay__inner {
+    display: flex;
+    justify-content: center;
+  background: #f2f2f2;
+ max-width: 700px;
+  padding: 20px;
+  position: relative;
+  opacity: 1;
+ 
+  
+
+}
+.overlay__inner img{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    max-width: 100%;
+    margin: auto;
+}
+
+.close {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  background: #f2f2f2;
+  outline: 0;
+  color:#15223C;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.close:hover {
+  color:#15223C;
+  font-style: oblique;
+}
+
+.project__image {
+  margin-left: -50%;
+}
