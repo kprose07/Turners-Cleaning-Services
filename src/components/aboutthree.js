@@ -8,7 +8,7 @@ function aboutthree() {
             <img src={tu} alt='turner' />
         </div>
         <div className='colOnea'>
-                <p id='heading'>Liceense/Bonding</p>
+                <p id='heading'>License/Bonding</p>
                 <p id='content'><b>General Liability Insurance</b></p>
                 <ul id='content'>
                     <li>Each occurrence - $1,000,000</li>
@@ -45,10 +45,10 @@ function aboutthree() {
                     <p id='heading'>CORE COMPETENCIES</p>
                     <ul id='content'>
                         <li>General Cleaning & Sanitization Organizing</li>
-                        <li>Furniture cleaning & Floor restoration</li>
-                        <li>Floor waxing, stripping, & resurfacing</li>
-                        <li>Carpet cleaning & Window Cleaning</li>
-                        <li>Bathroom & kitchen area cleaning</li>
+                        <li>Furniture Cleaning & Floor Restoration</li>
+                        <li>Floor Waxing, Stripping, & Resurfacing</li>
+                        <li>Carpet Cleaning & Window Cleaning</li>
+                        <li>Bathroom & Kitchen Area Cleaning</li>
                         <li>Pressure Washing</li>
                     </ul>
 
