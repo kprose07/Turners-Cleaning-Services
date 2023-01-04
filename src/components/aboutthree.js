@@ -63,10 +63,6 @@ function aboutthree() {
 
                     </p>
             </div>
-           
-       
-
-
             </div>
 
 

@@ -1,17 +1,18 @@
-//import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import {LinkContainer} from 'react-router-bootstrap';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet} from "react-router-dom";
 
 import '../css/Navbar.css';
 
 function NavBar() {
   return (
     <>
-    <Navbar  sticky="top" expand="lg">
+    <Navbar   collapseOnSelect sticky="top" expand="lg">
+    <Container>
       <div className="nav-container">
         <div>
        
@@ -49,6 +50,7 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse></div>
       </div>
+      </Container>
     </Navbar>
     <Outlet />
     </>
