@@ -28,14 +28,15 @@
     color:aliceblue !important;
 }
 .nav-link:hover {
-    text-decoration: underline;     
-    text-decoration-color: white;  
-    text-decoration-thickness: 4px;
+   background-color: white;
+   color: #15223C !important;
+   border-radius: 5px;
 }
 .navbar-collapse{
     background-color: #15223C !important;
     text-align: center;
     width:400px;
+    
     
 }
 button.navbar-toggler{
@@ -43,5 +44,6 @@ button.navbar-toggler{
     justify-content: center;
     margin: auto;
     margin-bottom: 10px;
+    border-bottom: 5px solid #f2f2f2;
     
 }

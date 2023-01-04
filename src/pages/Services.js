@@ -32,7 +32,8 @@ cleaned weekly. In restrooms, locker rooms, germicidal detergent will be used to
 daily. In trash receptacles using plastic liners, the liners will be replaced when obviously soiled or torn.
         </p>
 
-        <p id='subtit'>Dust-mop or Sweep of Non-Carpeted Areas</p><p id='conttext'>
+        <p id='subtit'>Dust-mop or Sweep of Non-Carpeted Areas</p>
+        <p id='conttext'>
 Prior to sweeping or dust mopping, all surface litter such as paper, gum, rubber bands, paper clips, or spills will
 be picked up. The entire area will be thoroughly swept to remove dust, dry soil, and other surface debris. All
 areas such as under chairs, trash receptacles, desks, coin-operated machines, and other furnishings, which
@@ -264,9 +265,10 @@ applied. Only every other coat will be applied all the way to the baseboard. The
 will be applied as to leave a 12-inch border around the area. The coats will be thin and evenly
 applied. After the finish has dried, the reflectance will be uniform and no streaks, swirls, or other
 irregularities will be visible, and no finish will be on the baseboard or other fixed equipment in the
-area. Each coat of sealer or wax will be buffed thoroughly before next coat is applied.
+area. Each coat of sealer or wax will be buffed thoroughly before next coat is applied.</p>
 
 <p id='subtit'>Carpet Cleaning - Water Extraction Method</p>
+<p>
 Includes cleaning, vacuuming, operation of the water extraction equipment, and vacuuming the
 carpet area. The loose litter will be picked up and the carpet area to be extracted will be
 completely vacuumed. Spots and stains will be treated with the appropriate spotter for the

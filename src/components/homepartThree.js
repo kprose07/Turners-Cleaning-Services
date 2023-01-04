@@ -4,6 +4,8 @@ import '../css/home.css'
 import quoteop from '../img/quoteop.png'
 import quotecl from '../img/quotecl.png'
 import od from '../img/od.png'
+import church from '../img/church.png'
+
 
 function homepartThree() {
   return (
@@ -27,9 +29,9 @@ function homepartThree() {
                   <img id='quoteCL' src={quotecl} alt='"'/>
                </div>
             <div className='rinfo'>
-                <div className='imgHolder'>
-                  <img src={od} alt='Office Depot'/>
-                </div>
+               
+                  <img id='imgHolder' src={od} alt='Office Depot'/>
+            
                 <div className='subtitle'>
                     <p id='bigt'>Home Depot</p>
                     <p id='smallt'>General Manager</p>
@@ -65,22 +67,20 @@ function homepartThree() {
                   <img id='quoteCL' src={quotecl} alt='"'/>
                </div>
             <div className='rinfo'>
-                <div className='imgHolder'>
-                  <img src={od} alt='Office Depot'/>
-                </div>
+                
+                  <img id='imageHolder' src={church} alt='Office Depot'/>
+               
                 <div className='subtitle'>
                     <p id='bigt'>Dennis D</p>
-                    <p id='smallt'>General Manager</p>
+                    <p id='smallt'>Executive Secretary Mississippi Distric pentecostal Church and Campground</p>
                 </div>
                   <div className='infounder'>
-                    <p>As the working world evolves, so does Office Depot.
-                     We're thinking differently as a company and transforming
-                      our business from a supplies-based retailer to a comprehensive
-                       B2B platform provider and marketplace. In business, we all
-                        need that go-to resource that understands what you need and
-                         how to deliver it to you. At Office Depot, our workforce
-                          strives to always have your back, anticipate your actions
-                           and fundamentally make business success easier for YOU. </p>
+                    <p>At the merger which brought into being the United Pentecostal Church
+                     International (UPCI) in 1945, the states of  Alabama, Mississippi and Tennessee
+                      were combined to make up a region. Then in the Regional Conference of 1949,
+                       each of these states became an individual district. So the Mississippi
+                        District as we know it now was formed in 1949. In the 66 years that has
+                         followed, only 8 District Superintendents have served.</p>
                    </div>
             </div>
         </div>

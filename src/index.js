@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import App from './App';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import App from './App';
+
+import ScrollUp from './components/scrollTop'
 
 //pages
 import Home from './pages/Home';
@@ -21,7 +22,9 @@ import Location from './pages/Location';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+
       <BrowserRouter>
+        <ScrollUp />
       <Routes>
         <Route path="/" element={<App/>}>
           <Route index element={<Home />} />
