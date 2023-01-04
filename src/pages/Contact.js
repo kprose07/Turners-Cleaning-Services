@@ -8,6 +8,8 @@ function Contact() {
   return (
     <div className='concontain'>
     <img id='cheader' src={cheader} alt='headerc' />
+    <div id='hrct'/>
+
     <div className='crow'>
     <div className='timgc'>
         <img src={tp} id='timg' alt='Turnner Proffesional' />
