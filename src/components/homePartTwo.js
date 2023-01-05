@@ -31,7 +31,7 @@ function homePartTwo() {
             to large scale jobs.
             </h2>
             <Link to="/Services" className="btn btnh">
-              View Services
+              View Services 
             </Link>
         </div>
       <Contact />

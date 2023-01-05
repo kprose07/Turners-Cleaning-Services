@@ -4,7 +4,7 @@ import imgo from '../img/eqb.png'
 import imbg from '../img/eq.png'
 import header from '../img/head.png'
 import cr from '../img/cr.png'
-
+//test
 function Equipment() {
   return (
   <div className='econt'>
