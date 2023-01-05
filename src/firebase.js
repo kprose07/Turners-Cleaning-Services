@@ -1,4 +1,4 @@
-import firebase from 'firebase'
+/*import firebase from 'firebase'
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -14,4 +14,4 @@ var firebaseApp = firebase.initializeApp({
 });
 
 var db = firebaseApp.firestore();
-export {db};
+// export {db};*/

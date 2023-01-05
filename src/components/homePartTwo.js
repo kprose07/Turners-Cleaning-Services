@@ -1,8 +1,8 @@
 import React from 'react'
-import headshot from '../img/test.png'
-import bg from '../img/cleanone.png'
+//import headshot from '../img/test.png'
+//import bg from '../img/cleanone.png'
 import { Link } from 'react-router-dom'
-import Contact from '../components/contact'
+import Contact from '../components/chontact'
 
 
 function homePartTwo() {

@@ -57,6 +57,12 @@ body{
 
 
 .rowTwo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
     border: solid 5px #15223C;
     width: clamp(200px,500px,600px);
     height:100%;
