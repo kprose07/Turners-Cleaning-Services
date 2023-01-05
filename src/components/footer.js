@@ -113,9 +113,7 @@ export default function App() {
             <p>
               <MDBIcon icon="phone" className="me-3" />601-540-5659
             </p>
-            <p>
-              <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-            </p>
+           
           </MDBCol>
         </MDBRow>
       </MDBContainer>
