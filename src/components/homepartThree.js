@@ -34,7 +34,7 @@ function homepartThree() {
                   <img id='imgHolder' src={od} alt='Office Depot'/>
             
                 <div className='subtitle'>
-                    <p id='bigt'>Home Depot</p>
+                    <p id='bigt'>Office Depot</p>
                     <p id='smallt'>General Manager</p>
                 </div>
                   <div className='infounder'>
