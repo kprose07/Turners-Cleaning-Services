@@ -2,7 +2,7 @@ import React from 'react'
 import bgimga from '../img/bg.png'
 import '../css/about.css'
 import AboutOne from '../components/aboutone'
-import tTwo from '../img/turnertwo.jpg'
+//import tTwo from '../img/turnertwo.jpg'
 import Arslider from '../components/arslider'
 import AboutThree from '../components/aboutthree'
 

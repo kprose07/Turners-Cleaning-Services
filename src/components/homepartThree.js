@@ -10,11 +10,12 @@ import church from '../img/church.png'
 function homepartThree() {
   return (
     <>
+            <p className='head pth'>What Customers Say About Turner's Cleaning Services</p>
+
     <div id='carouselExample' className='carousel slide '>
   <div className='carousel-inner'>
     <div className='carousel-item active'>
     <div className='containFour'>
-        <p className='head'>What Customers Say About Turner's Cleaning Services</p>
         <div className='rBox'>
            <div className='reviewBox'>
                 <img id='quoteOP' src={quoteop} alt='"'/>
@@ -53,7 +54,6 @@ function homepartThree() {
     </div>
     <div className='carousel-item'>
     <div className='containFour'>
-        <p className='head'>What Customers Say About Turner's Cleaning Services</p>
         <div className='rBox'>
            <div className='reviewBox'>
                 <img id='quoteOP' src={quoteop} alt='"'/>

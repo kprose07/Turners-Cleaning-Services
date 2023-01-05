@@ -244,14 +244,19 @@ body{
     display: flex;
     flex-direction: column;
     width:100%;
-    padding:5px;
+    padding:25px;
     height:fit-content;
     background-color: #f2f2f2;
     gap: 15px;
     overflow-x: hidden;
-
-    
-
+}
+.pth{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  padding:15px;
+  background-color: #15223C;
+  color: white !important;
 }
 .head{
   text-align: center;
@@ -277,7 +282,7 @@ body{
   flex-wrap: wrap;
     width:100%;
     max-width: 600px;
-    min-height:500px;
+    min-height:618px;
     margin-left: 10%;
     margin-right: 2%;
     padding: 40px;
@@ -308,7 +313,7 @@ body{
     width:100%;
     height: 100%;
     max-width: 480px;
-    min-height:200px;
+   
    font-family: 'Ovo';
    font-size: 15px;
    padding:40px;
@@ -341,12 +346,17 @@ body{
   background-color:#F2F2F2;
 }
 @media screen and (max-width:1233px) {
+  .containFour{
+    max-height:900px ;
+    overflow-x: hidden;
+  }
   .rbox{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-  }
+   height:100%;
+    }
   .reviewBox{
   
     margin: auto;
