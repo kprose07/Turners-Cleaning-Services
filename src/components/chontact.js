@@ -46,7 +46,7 @@ const Contact = () => {
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
-    <p className="copyright">© Turner's Cleaning LLC <Link to="/Contact" target="_blank" title="Contact">Contacts</Link></p>
+    <p className="copyright">© Turner's Cleaning LLC <Link to="/Contact" target="_blank" title="Contact">Contact</Link></p>
   </form>
 </div>
         </div>

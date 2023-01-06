@@ -1,0 +1,12 @@
+.qcontain{
+    padding:50px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-image: url('../img/btt.png');
+    background-size: cover;
+    background-position: center;
+}
