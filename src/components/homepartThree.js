@@ -57,9 +57,9 @@ function homepartThree() {
         <div className='rBox'>
            <div className='reviewBox'>
                 <img id='quoteOP' src={quoteop} alt='"'/>
-                <p id='review'>I have known ****** Turner of Turner Cleaning Services for
+                <p id='review'>I have known Turner of Turner Cleaning Services for
                  almost 10 years. He has contracted his services to our company for the last
-                  6 years. ****** has a good work ethic and has proven to be very trustworthy
+                  6 years. Mr.Turner has a good work ethic and has proven to be very trustworthy
                    and attentive to various tasks he is asked to perform. Often, we have 
                    asked for additional services for special events and he has almost always
                     accommodated us to meet our requests. I highly recommend Turner Cleaning 
