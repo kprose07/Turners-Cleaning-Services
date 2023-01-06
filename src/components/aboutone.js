@@ -55,10 +55,11 @@ the services of an employment agency to ensure all staffing requirements are ade
       <div className="card__background" style={{backgroundImage: `url(${f})`}}></div>
       <div className="card__content">
         <h3 className="card__heading">Financial Management</h3>
-        <p className="card__category ">Turner's Cleaning Service currently contracts bookkeeping and payroll services through Smart Solution
-Consulting, LLC. The company understands the importance of good financial management in being successful.
-Smart Solution Consulting ensures that TCS is has up-to-date and accurate books as well as promptly paid
-invoices and payroll.</p>
+        <p className="card__category ">Turner's Cleaning Service currently contracts 
+        bookkeeping and payroll services through Kimble Accounting Services, a 30+ year business. 
+        The company understands the importance of good financial management in being successful.
+      Kimble Accounting ensures that TCS is has up-to-date and accurate books as well as promptly paid
+      invoices and payroll.</p>
 
       </div>
     </div>
