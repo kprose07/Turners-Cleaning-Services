@@ -52,3 +52,24 @@
    border: 5px solid #15223C !important;
    color: #15223C !important;
 }
+@media screen and (max-width:1200px) {
+    #top{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo img{
+        max-width: 250px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+}

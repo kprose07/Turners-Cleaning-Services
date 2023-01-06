@@ -230,10 +230,11 @@ body{
     margin-right: auto;
     margin-top: 2%;
     border:5px solid #15223C !important;
-    width:30%;
+    width:fit-content !important;
     border-radius: 1px; 
     color:aliceblue !important;
     background-color: #15223C !important;
+    text-align: center;
     
   
 }
