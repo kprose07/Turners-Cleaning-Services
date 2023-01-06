@@ -30,7 +30,7 @@ const TopNavbar = () => {
        </div>
        <div className="callAdd">
           <p>Call Today!</p>
-          <h2>601-540-5659</h2>
+          <h2>601-874-6359</h2>
        </div>
     </div>
     
