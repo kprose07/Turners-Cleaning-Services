@@ -15,7 +15,7 @@ function homePartTwo() {
       <div className='bgImg'></div>
         <div className='rowOne'>
         <p id="pOne"><b>Welcome to Turner's Cleaning Services</b></p>
-            <p>Turner's Cleaning Service, LLC is delighted to present a general overview of its qualifications 
+            <p >Turner's Cleaning Service, LLC is delighted to present a general overview of its qualifications 
             and experience. We offer a full compliment of professional janitorial services and are experienced in 
             servicing a diverse set of clientele. Reliable janitorial services are an important aspect of maintaining 
             a professional image and we welcome the opportunity to discuss how we can meet your needs.If there are any

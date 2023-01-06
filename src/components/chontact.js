@@ -26,7 +26,7 @@ const Contact = () => {
 
     return (
         <>
-              <div className='rowTwo'>
+              <div className='rowTwo' id='cform'>
         <div className="containerThree">  
   <form id="contact" action="" method="post" onSubmit={sendEmail}>
     <h3>Contact Us Today!</h3>

@@ -2,7 +2,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
-import { Outlet} from "react-router-dom";
 import logo from '../img/logo.png';
 import '../css/foot.css';
 
