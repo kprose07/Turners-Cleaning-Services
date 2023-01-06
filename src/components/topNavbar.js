@@ -13,7 +13,7 @@ const TopNavbar = () => {
 
   const navigateToContacts = () => {
     // 👇️ navigate to /contacts
-    navigate('/Contact');
+    navigate('/Quotes');
   };
   
 

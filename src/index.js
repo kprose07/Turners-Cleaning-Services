@@ -16,8 +16,7 @@ import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Equipment from './pages/Equipment';
-import Location from './pages/Location';
-
+import Quotes from './components/Quotes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,9 +31,9 @@ root.render(
           <Route path="About" element={<About />} />
           <Route path="Services" element={<Services />} />
           <Route path="Equipment" element={<Equipment />} />
-          <Route path="Location" element={<Location />} />
           <Route path="Gallery" element={<Gallery />} />
           <Route path="Contact" element={<Contact />} />
+          <Route path="Quotes" element={<Quotes />} />
         </Route>
       </Routes>
     </BrowserRouter>
