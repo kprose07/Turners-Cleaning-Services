@@ -103,20 +103,22 @@ export default function App() {
             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
             <p>
               <MDBIcon icon="home" className="me-2" />
-              Jackson, MS 39217, US
+              202 East Santa Clair ST, Jackson, MS 39217, US
             </p>
             <p>
               <MDBIcon icon="envelope" className="me-3" />
               tponcie@gmail.com
             </p>
             <p>
-              <MDBIcon icon="phone" className="me-3" />601-540-5659
+              <MDBIcon icon="phone" className="me-3" />601-874-6359
             </p>
            
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-    </section>
+    </section>quoteAdd-+
+
+    
 
     <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
       © Turner's Cleaning LLC, 2022. All rights reserved
