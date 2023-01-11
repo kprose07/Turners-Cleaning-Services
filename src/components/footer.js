@@ -16,24 +16,15 @@ export default function App() {
       </div>
 
       <div>
-        <Link to='/Home' className='me-4 text-reset'>
+        <a href='https://www.facebook.com/turnerscleaningservicellc/' className='me-4 text-reset'>
           <MDBIcon fab icon="facebook-f" />
-        </Link>
-        <Link to='/Home' className='me-4 text-reset'>
-          <MDBIcon fab icon="twitter" />
-        </Link>
-        <Link to='/Home' className='me-4 text-reset'>
+        </a>
+        <a a='https://www.bbb.org/us/ms/jackson/profile/house-cleaning/turners-cleaning-service-llc-0523-235841263/customer-reviews' className='me-4 text-reset'>
           <MDBIcon fab icon="google" />
-        </Link>
-        <Link to='/Home' className='me-4 text-reset'>
-          <MDBIcon fab icon="instagram" />
-        </Link>
-        <Link to='/Home' className='me-4 text-reset'>
+        </a>
+        <a href='https://www.linkedin.com/company/turnerscleaningservice/' className='me-4 text-reset'>
           <MDBIcon fab icon="linkedin" />
-        </Link>
-        <Link to='/Home' className='me-4 text-reset'>
-          <MDBIcon fab icon="github" />
-        </Link>
+        </a>
       </div>
     </section>
     <section className='footc'>
@@ -99,7 +90,7 @@ export default function App() {
             
           </MDBCol>
 
-          <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+          <MDBCol md="4" lg="3" xl="4" className='mx-auto mb-md-0 mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
             <p>
               <MDBIcon icon="home" className="me-2" />
@@ -110,15 +101,16 @@ export default function App() {
               tponcie@gmail.com
             </p>
             <p>
-              <MDBIcon icon="phone" className="me-3" />601-874-6359
+              <MDBIcon icon="phone" className="me-3" />
+              <a style={{color: "inherit", textDecoration: "none",cursor: "inherit"}} href="tel:601-874-6359">601-874-6359</a>
             </p>
            
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-    </section>quoteAdd-+
+    </section>
 
-    
+
 
     <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
       © Turner's Cleaning LLC, 2022. All rights reserved

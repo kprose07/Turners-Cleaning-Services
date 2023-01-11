@@ -30,7 +30,7 @@ const TopNavbar = () => {
        </div>
        <div className="callAdd">
           <p>Call Today!</p>
-          <h2>601-874-6359</h2>
+          <a style={{color: "inherit", textDecoration: "none", cursor: "inherit"}} href="tel:601-874-6359"><h2>601-874-6359</h2></a>
        </div>
     </div>
     
