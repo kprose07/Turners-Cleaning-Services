@@ -18,7 +18,7 @@ export default function Slide() {
         className='w-100 d-block'
         style={{ minHeight: '260px',maxHeight:'600px'}}
         itemId={1}
-        src={SlideOne}
+        src={SlideFive}
         alt='...'
       />
       <MDBCarouselItem
@@ -44,13 +44,7 @@ export default function Slide() {
       >
 
       </MDBCarouselItem>
-      <MDBCarouselItem
-        className='w-100 d-block'
-        style={{ minHeight: '260px',maxHeight:'600px'}}
-        itemId={4}
-        src={SlideFive}
-        alt='...'
-      />
+
     </MDBCarousel>
   );
 }
