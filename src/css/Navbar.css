@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-
+body{
+    overflow-x: hidden;
+}
 .nav-container{
     display:flex;
    margin:auto;
