@@ -29,8 +29,8 @@ b{
 
 }
 .timgc{
-    max-width: 500px;
-    height: 300px;
+    max-width: 800px;
+    height: 600px;
     margin-top: auto;
     margin-bottom: auto;
     padding-top: 20px;
@@ -47,6 +47,8 @@ b{
 }
 .ctext{
     max-width: 700px;
+    margin-top: auto;
+    margin-bottom: auto;
     
 }
 #subtc{
@@ -84,4 +86,13 @@ b{
     background-color:#15223C !important;
     height:15px;
     
+ }
+ @media screen and (max-width:655px) {
+    .timgc{
+   
+        height: 400px;
+    
+        
+        
+    }
  }

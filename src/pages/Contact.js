@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/contact.css'
 
-import tp from '../img/tup.png'
+import tp from '../img/tt.jpg'
 import cheader from '../img/cheader.png'
 
 function Contact() {

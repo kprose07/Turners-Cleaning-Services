@@ -19,7 +19,7 @@ export default function App() {
         <a href='https://www.facebook.com/turnerscleaningservicellc/' className='me-4 text-reset'>
           <MDBIcon fab icon="facebook-f" />
         </a>
-        <a a='https://www.bbb.org/us/ms/jackson/profile/house-cleaning/turners-cleaning-service-llc-0523-235841263/customer-reviews' className='me-4 text-reset'>
+        <a href='https://www.bbb.org/us/ms/jackson/profile/house-cleaning/turners-cleaning-service-llc-0523-235841263/customer-reviews' className='me-4 text-reset'>
           <MDBIcon fab icon="google" />
         </a>
         <a href='https://www.linkedin.com/company/turnerscleaningservice/' className='me-4 text-reset'>
