@@ -58,8 +58,7 @@ the services of an employment agency to ensure all staffing requirements are ade
         <p className="card__category ">Turner's Cleaning Service currently contracts 
         bookkeeping and payroll services through Kimble Accounting Services, a 30+ year business. 
         The company understands the importance of good financial management in being successful.
-      Kimble Accounting ensures that TCS is has up-to-date and accurate books as well as promptly paid
-      invoices and payroll.</p>
+        Kimble Accounting ensures that TCS has up-to-date and accurate books as well as promptly paid</p>
 
       </div>
     </div>
